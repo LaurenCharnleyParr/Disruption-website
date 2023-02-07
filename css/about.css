@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+#visionSection{
+    background-color: #e6007e;
+}
+
+#letterSection {
+    background-color: aliceblue;
+
+}
+
+body {
+    background-color: #e6007e;
+}
+
+
+.visionImg {
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    margin: 100px 100px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.visionDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* height: 50%; */
+}
+
+.letterDiv{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+
+
+.letterImg{
+    position: relative;
+    width: 90%;
+    height: 80%;
+    /* width: 100vw; */
+    /* height: 100vh; */
+    /* margin: 20px 10px 0px 60px; */
+    margin: 5% 5% 0% 5%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
+.navbar a {
+    color: #fff;  
+}
+
+.navbar a:hover {
+    border-bottom: #fff 2px solid;
+}
+
+.processDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 200px;
+}
+
+
+h1 {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.2;
+    margin: 30px 30px 70px 30px;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif */
+    font-family: 'montserrat', sans-serif;
+}
+
+h3{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+p {
+    color: #fff;
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+body {
+    font-family: 'montserrat', sans-serif;
+   
+    line-height: 1.6;
+}
+
+/* next on the agenda!: 
+
+* Build gallery for each gateway
+* link up gateway buttons
+* text styling
+* Text writing
+* Style enter button
+* Header animation
+* Miscellaneous animation and styling.
+* Social media button links
+* domain name and email
+* writing and community page tbd
+* Responsivity checks
+
+
+*/

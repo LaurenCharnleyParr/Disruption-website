@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'montserrat', sans-serif;
+    line-height: 1.6;
+    /* background-color: black; */
+
+}
+
+.hero {
+    position: relative;
+    /* top: 100px; */
+    height: 100vh;
+    width: 100vw;
+    /* background: #e6007e; */
+ 
+   
+    
+
+}
+
+.hero .content {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 60%;
+    padding: 0 20px;
+}
+
+/* 
+#section1 {
+    background-color: black;
+
+} */
+
+h1{
+    color: #e6007e;
+}
+
+
+p {
+    color: #e6007e;
+    font-size: 1.8rem;
+    margin: 50px;
+    padding: 50px;
+    font-family: 'montserrat', sans-serif; 
+    line-height: 2; 
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+a {
+    font-family: 'montserrat', sans-serif;
+    /* color: rgb(236, 236, 236); */
+    text-decoration: none;
+}
+
+.logo {
+    /* position: relative;
+    display: flex; */
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    /* left: 25px;
+    top: 425px; */
+    width: 150px;
+    height: 150px;
+    z-index: 10;
+    /* padding: 30px; */
+
+}
+
+.navbar {
+  
+    font-size: 15px;
+    /* background-color: black; */
+    display: flex;
+    width: 100%;
+ 
+    flex-direction: row;
+    position: relative;
+    
+   align-items: center;
+    justify-content: right;
+    color: #e6007e;
+    width: 100%;
+    height: 100px;
+    /* position: fixed; */
+    top: 0px;
+    /* padding: 10px;  */
+    transition: 0.5s;
+    z-index: 10;
+}
+
+
+.navbar a {
+    color: #e6007e;
+    padding: 0px 20px;
+    margin: 0 15px;
+    text-decoration: none;
+   
+}
+
+.navbar a:hover {
+    border-bottom: #e6007e 2px solid;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+
+.footer {
+    
+    position: absolute;
+     bottom: 10px; 
+    /* left: 25px;
+    right: 25px; */
+    margin: 0 10px;
+  
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    justify-content: space-between;
+    text-align: center;
+    /* height: 100px; */
+    z-index: 5;
+}
+
+.copyright {
+    justify-content: right;
+}
+
+.footer a {
+    color:  rgb(236, 236, 236);
+    margin: 0 10px 0 0;
+}
+
+.footer .social {
+    display: flex;
+    justify-content: left;
+    /* margin-right: 30px; */
+}
+
+.video {
+  position: absolute;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+
+    z-index: -10;
+}
+
+
+
+
+

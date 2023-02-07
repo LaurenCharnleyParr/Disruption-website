@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'montserrat', sans-serif;
+    background: #e6007e;
+    color: rgb(236, 236, 236);
+    line-height: 1.6;
+}
+
+.hero {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background: #e6007e;
+ 
+   
+    
+
+}
+
+
+
+.hero .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 60%;
+    padding: 0 20px;
+}
+   
+ 
+
+ul {
+    list-style: none;
+}
+
+
+a {
+    color: rgb(236, 236, 236);
+    text-decoration: none;
+}
+
+.logo {
+    /* position: relative;
+    display: flex; */
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    /* left: 25px;
+    top: 425px; */
+    width: 150px;
+    height: 150px;
+    /* padding: 30px; */
+
+}
+
+.navbar {
+    display: flex;
+ 
+    flex-direction: row-reverse;
+    
+    align-items: center;
+    justify-content: space-between end;
+    color: #fff;
+    width: 100%;
+    height: 75px;
+    position: relative;
+    /* top: 10px; */
+     padding: 10px; 
+    transition: 0.5s;
+    z-index: 10;
+}
+
+
+.navbar a {
+    color: #fff;
+    padding: 0px 20px;
+    margin: 0 15px;
+}
+
+.navbar a:hover {
+    border-bottom: rgb(236, 236, 236) 2px solid;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+
+.footer {
+    position: relative;
+     bottom: 45px; 
+    /* left: 25px;
+    right: 25px; */
+    margin: 0 10px;
+  
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    justify-content: space-between;
+    text-align: center;
+    /* height: 100px; */
+    z-index: 5;
+}
+
+.copyright {
+    justify-content: right;
+}
+
+.footer a {
+    color:  rgb(236, 236, 236);
+    margin: 0 10px 0 0;
+}
+
+.footer .social {
+    display: flex;
+    justify-content: left;
+    /* margin-right: 30px; */
+}
+ 
+.video {
+    width: 100vw;
+    height: 100vh;
+
+    z-index: -10;
+}
+
+

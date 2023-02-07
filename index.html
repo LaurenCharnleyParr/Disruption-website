@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISRUPTION</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- v font import -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous" />
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="css/index.css" />
+
+      <script src="sketch.js"></script> 
+      <script src="libraries/p5.js"></script>
+      <!-- <script src="libraries/p5.dom.js"></script> -->
+</head>
+
+
+
+<body id="home">
+
+  <div id="navbar" class="navbar">
+    
+    <a href="index.html"><img class= "logo" src="media/logo pink.jpg" alt="DISRUPTION LOGO"  ></a>
+      <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#Community" >Community</a></li>
+            <li><a href="#writing">Writing</a></li>
+          </ul>
+        </nav>
+  </div>
+
+    <header class="hero"> 
+
+      <video class= "video" src="media/finalp5.js.mp4" muted loop autoplay></video>
+        
+
+        <a href="gateway1.html" class="neon-button">  Enter  </a>
+    
+        <!-- <div class="content">
+            <h1>DISRUPTION</h1>
+            <p>A CREATIVE PRODUCTION HOUSE BLURRING BOUNDARIES</p>
+            <a href="#enter" class="btn">Enter</a>
+          
+          </div> -->
+    
+          <footer class="footer">
+            <div class="social">
+              
+              <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+              <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+              <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+              <h4>contact@disruption.com</h4>
+            </div>
+            <p class="copyright">Copyright &copy; 2022 - DISRUPTION Creative Ltd.</p>
+          </footer>
+    </header>
+   
+      
+ 
+   
+
+
+
+    
+</body>
+</html>
+
+<!-- const canvasSize = 1000;
+const grSize = canvasSize;
+function setup() {
+  createCanvas(canvasSize, canvasSize);
+  frameRate(30);
+  pg = createGraphics(grSize, grSize);
+}
+
+function draw() {
+  //background(0);
+  pg.background(0);
+  pg.fill(255);
+  pg.textFont("Hind");
+  pg.textSize(canvasSize/10);
+  pg.push();
+  pg.translate(grSize/2, grSize/2);
+  pg.textAlign(LEFT, CENTER);
+  pg.textLeading(canvasSize/6.6-10);
+  pg.text("    * DISRUPTION   * ", -canvasSize/5, -canvasSize/10, 200);
+  pg.pop();
+
+  let tilesX = 50;
+  let tilesY = 30;
+
+  let tileW = int(width/tilesX);
+  let tileH = int(height/tilesY);
+
+  for (let y = -10; y < tilesY; y++) {
+    for (let x = 0; x < tilesX; x++) {
+
+      // WARP
+      let wave = int(sin(frameCount * 0.03 + ( x+50 * y+10 ) * 0.02) * 60);
+      //wave = 0;
+      // SOURCE
+      let sx = x*tileW + wave;
+      let sy = y*tileH + wave;
+      let sw = tileW;
+      let sh = tileH;
+
+
+      // DESTINATION
+      let dx = x*tileW;
+      let dy = y*tileH;
+      let dw = tileW;
+      let dh = tileH;
+
+      copy(pg, sx, sy, sw, sh, dx, dy, dw, dh);
+
+    }
+  }
+} -->
+
